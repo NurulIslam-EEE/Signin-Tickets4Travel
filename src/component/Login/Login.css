@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.home {
+  background: linear-gradient(to right, black 70%, white 30%);
+
+  height: "1580px";
+  width: "100%";
+}
+.login {
+  background: transparent;
+  position: relative;
+}
+login-img {
+  width: 647px;
+  height: 980px;
+}
+.login-section {
+  height: 860px;
+  width: 715px;
+  background-color: white;
+
+  box-shadow: 0 0 10px -2px black;
+  margin-top: 52px;
+  position: absolute;
+  right: 149px;
+  top: 10px;
+
+  margin-bottom: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-section button {
+  background: #3e489a;
+  color: white;
+  width: 380px;
+  height: 53px;
+  margin-top: 71px;
+}
+.login-section .line {
+  height: 10px;
+  width: 100px;
+  background-color: #e5e5e5;
+}
+
+.fb-icon {
+  display: flex;
+  justify-content: space-around;
+  width: 280px;
+  margin-top: 57px;
+  margin-bottom: 66px;
+}
+.logo {
+}
