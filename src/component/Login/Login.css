@@ -12,8 +12,9 @@ body {
 }
 .login {
   background: transparent;
-  position: relative;
+
   height: "1080px";
+  width: 1900px;
 }
 .login-img {
   width: 647px;
@@ -21,6 +22,7 @@ body {
   margin-left: 87px;
 }
 login-section-container {
+  position: relative;
 }
 .login-section {
   height: 860px;

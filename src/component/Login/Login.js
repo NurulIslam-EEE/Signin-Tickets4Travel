@@ -9,7 +9,7 @@ import google from '../../img/google.png';
 const Login = () => {
     return (
         <div className='row login'>
-            <div className="col-md-6 login-img">
+            <div className="col-md-6 login-img text-center">
                 <img src={vector} alt="" />
             </div>
             <div className=" login-section-container">
@@ -45,7 +45,7 @@ const Login = () => {
 
                         </div>
 
-                        <p>Don't have an account? <span style={{ color: 'blue' }}>Sign Up</span> </p>
+                        <p>Don't have an account? <span style={{ color: '#42C2FF' }}>Sign Up</span> </p>
 
                     </div>
                 </div>
