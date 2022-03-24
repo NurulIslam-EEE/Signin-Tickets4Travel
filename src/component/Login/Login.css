@@ -12,9 +12,10 @@ body {
 }
 .login {
   background: transparent;
-
+  max-width: 1900px !important;
   height: "1080px";
-  width: 1900px;
+
+  text-align: center;
 }
 .login-img {
   width: 647px;
@@ -31,7 +32,7 @@ login-section-container {
   position: absolute;
   box-shadow: 0 0 10px -2px black;
   margin-top: 52px;
-  right: 149px;
+  right: 300px;
   top: 10px;
   margin-bottom: 49px;
   display: flex;
@@ -68,10 +69,21 @@ login-section-container {
 }
 .logo {
 }
+@media only screen and (max-width: 1700px) {
+  .login-section {
+    right: 200px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .login-section {
+    right: 50px;
+  }
+}
+
 @media only screen and (max-width: 1300px) {
   .login-section {
     top: 1000px;
-    left: 10%;
+    left: 25%;
     margin-bottom: 49px;
     margin: 0 auto;
   }
