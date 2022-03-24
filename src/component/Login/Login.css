@@ -2,32 +2,35 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 .home {
   background: linear-gradient(to right, black 70%, white 30%);
 
-  height: "1580px";
   width: "100%";
+  text-align: center;
 }
 .login {
   background: transparent;
   position: relative;
+  height: "1080px";
 }
-login-img {
+.login-img {
   width: 647px;
   height: 980px;
+  margin-left: 87px;
+}
+login-section-container {
 }
 .login-section {
   height: 860px;
   width: 715px;
   background-color: white;
-
+  position: absolute;
   box-shadow: 0 0 10px -2px black;
   margin-top: 52px;
-  position: absolute;
   right: 149px;
   top: 10px;
-
   margin-bottom: 49px;
   display: flex;
   align-items: center;
@@ -38,20 +41,42 @@ login-img {
   color: white;
   width: 380px;
   height: 53px;
-  margin-top: 71px;
+  margin-top: 51px;
+  border-radius: 10px;
+}
+.login-section input {
+  margin-top: 34px;
+  border-radius: 10px;
+  height: 50px;
+  width: 380px;
+  padding: 10px 20px;
 }
 .login-section .line {
-  height: 10px;
-  width: 100px;
-  background-color: #e5e5e5;
+  height: 1px;
+  width: 145px;
+  background-color: #666666;
 }
 
 .fb-icon {
   display: flex;
-  justify-content: space-around;
-  width: 280px;
+  width: 480px;
   margin-top: 57px;
   margin-bottom: 66px;
+  justify-content: center;
 }
 .logo {
+}
+@media only screen and (max-width: 1300px) {
+  .login-section {
+    top: 1000px;
+    left: 10%;
+    margin-bottom: 49px;
+    margin: 0 auto;
+  }
+  .login-img {
+    margin: 0 auto;
+  }
+  .home {
+    height: 2000px;
+  }
 }

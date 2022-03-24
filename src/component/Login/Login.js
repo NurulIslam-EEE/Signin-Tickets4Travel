@@ -12,30 +12,40 @@ const Login = () => {
             <div className="col-md-6 login-img">
                 <img src={vector} alt="" />
             </div>
-            <div className="">
+            <div className=" login-section-container">
                 <div className="login-section ">
-                    <div>
+                    <div className='text-center' style={{ width: '492px' }}>
 
 
                         <div className='text-center'>
                             <img src={logo} alt="" />
                         </div>
-                        <h3 className='mx-auto'>Explore The Best Tours... Hurry up!!</h3>
-                        <input placeholder='Email Address' type="text" /> <br />
-                        <input placeholder='Password' type="password" name="" id="" /> <br />
-                        <button type="submit">Login</button>
-                        <div>
-                            <span className='line'>A</span>
+                        <form >
+                            <h3 className='mx-auto'>Explore The Best Tours... Hurry up!!</h3>
+                            <input placeholder='Email Address' type="text" /> <br />
+                            <input placeholder='Password' type="password" name="" id="" /> <br />
+                            <p style={{ color: '#FF0000', textAlign: 'right', marginTop: '10px ', paddingRight: '55px' }}>Forgot Password?</p>
+                            <button className='mx-auto' type="submit">Login</button>
+                        </form>
+                        <div style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-around', marginTop: '58px' }}>
+                            <div className='line'></div>
+
                             <span>or</span>
-                            <span className='line'>B</span>
+                            <div className='line'></div>
                         </div>
 
                         <div className='fb-icon'>
-                            <img src={fb} alt="" />
-                            <img src={google} alt="" />
+                            <div style={{ marginRight: '80px' }}>
+                                <img src={fb} alt="" />
+                            </div>
+                            <div>
+                                <img src={google} alt="" />
+                            </div>
+
+
                         </div>
 
-                        <p>Don't have an account? <span style={{ color: 'skyBlue' }}>Sign Up</span> </p>
+                        <p>Don't have an account? <span style={{ color: 'blue' }}>Sign Up</span> </p>
 
                     </div>
                 </div>

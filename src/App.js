@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="m-0 home">
+    <div className="m-0 p-o home">
       <Login />
     </div>
   );
